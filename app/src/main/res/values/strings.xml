@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">FYO: FIND YOUR OCCUPATION</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="createNewAccount">Create New Account</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_howToPlay">How To Play</string>
+    <string name="menu_myProfile">My Profile</string>
+    <string name="menu_myGoals">My Goals</string>
+    <string name="menu_notifs">Notifications</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Username or email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username!</string>
+    <string name="invalid_email">Not a valid e mail address!</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email Address</string>
+    <string name="chooseName">Choose a Name</string>
+    <string name="choosepasswd">Choose a Password</string>
+    <string name="rPpassword">Repeat Password</string>
+    <string name="rgSıngup">SING UP</string>
+    <string name="logo">Logo</string>
+    <string name="player1start">PLAYER 1 START:</string>
+    <string name="descriptionUnderLogo">In this real life RPG you will find the profession you want to do by completing some fun tasks!</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Communicate">Communicate</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Resend_verification_mail">Resend Verification Mail</string>
+    <string name="okey">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="icons">ICONS</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="forgotYourPassword">Forgot Your Password?</string>
+    <string name="EnterUserNameOrEmail">Enter Username or Email</string>
+    <string name="logOut">Log Out</string>
+    <string name="Continue">Continue</string>
+    <string name="newAchievement">New Achievement</string>
+    <string name="computerScience">Computer Science</string>
+    <string name="computerScienceEq">= Computer Science</string>
+    <string name="arch">Architecture</string>
+    <string name="archEq">= Architecture</string>
+    <string name="loading">loading...</string>
+    <string name="bioAndGenetics">Biology and Genetics</string>
+    <string name="bioAndGeneticsEq">= Biology and Genetics</string>
+    <string name="unCompEq">= Uncompleted</string>
+    <string name="CompEq">= Completed</string>
+    <string name="unFavEq">= Unfavorite</string>
+    <string name="FavEq">= Favorite</string>
+
+
+    <!-- Profile and login  -->
+    <string name="JustEmail">Email</string>
+    <string name="EmailAndPassword">Email and Password</string>
+    <string name="newEmail">Enter your new Email</string>
+    <string name="newUsername">Enter your new Username</string>
+    <string name="newPassword">Enter your new Password</string>
+    <string name="repeatNewPassword">Repeat your new Password</string>
+    <string name="clickHere">Click here to change profile photo</string>
+    <string name="description">(You have to enter your password to change your e-mail address!)</string>
+    <string name="justUserName">Username</string>
+    <string name="change">Change</string>
+    <string name="changeEmail">Change Email Address</string>
+    <string name="sttngsFgProfilePicture">Profile Photo</string>
+    <string name="sttngsFgChangePp">Change Profile Photo</string>
+    <string name="sttngsFgChangeUsername">Change Username</string>
+    <string name="sttngsFgChangePassword">Change Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new_achievement">NewAchievementActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+
+
+    <string name="LoremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur rhoncus nisi, eu auctor ipsum dignissim ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur condimentum in nulla id euismod. Donec eu aliquet velit. Phasellus fringilla odio vitae ipsum aliquam placerat. Vestibulum ipsum lectus, efficitur sed orci et, auctor auctor odio. Quisque ac aliquam urna. Ut neque quam, varius in nisi a, cursus finibus felis.
+
+Maecenas suscipit eros orci, in laoreet nisl semper nec. Vestibulum orci neque, eleifend ut velit id, congue aliquet lectus. Mauris feugiat in sem quis congue. Praesent sodales orci eget erat mattis posuere. Nullam vel elit malesuada justo pretium pharetra. Fusce rhoncus ex vel condimentum vehicula. Vivamus ullamcorper quis sapien vehicula condimentum. Aliquam non libero ut metus tempor cursus id ac nisi. Integer volutpat turpis vitae dolor hendrerit, eu vestibulum dui sollicitudin. Quisque egestas felis volutpat auctor ultrices.</string>
+
+
+
+</resources>

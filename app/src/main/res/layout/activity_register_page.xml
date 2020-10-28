@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/registerPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/loginBackground"
+        tools:context=".RegisterPage">
+
+        <!-- Choose a Name -->
+
+    <EditText
+            android:id="@+id/rgchooseNameEText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_shape"
+            android:ems="25"
+            android:fontFamily="monospace"
+            android:hint="@string/chooseName"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="@color/greenTextColor"
+            android:textColorHint="@color/hintColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.374" />
+
+    <!-- Password -->
+    <EditText
+            android:id="@+id/rgPasswordEtext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_shape"
+            android:ems="25"
+            android:fontFamily="monospace"
+            android:hint="@string/choosepasswd"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            android:imeActionLabel="Sing Up"
+            android:imeOptions="actionDone"
+            android:padding="8dp"
+            android:textColor="@color/greenTextColor"
+            android:textColorHint="@color/hintColor"
+            app:layout_constraintEnd_toEndOf="@+id/rgchooseNameEText"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/rgchooseNameEText"
+            app:layout_constraintTop_toBottomOf="@+id/rgEmailEtext" />
+
+
+    <!-- Repeat Password -->
+    <EditText
+            android:id="@+id/rgRepeatPasswordEtext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_shape"
+            android:ems="25"
+            android:fontFamily="monospace"
+            android:hint="@string/rPpassword"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            android:padding="8dp"
+            android:textColor="@color/greenTextColor"
+            android:textColorHint="@color/hintColor"
+            app:layout_constraintEnd_toEndOf="@+id/rgchooseNameEText"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/rgchooseNameEText"
+            app:layout_constraintTop_toBottomOf="@+id/rgPasswordEtext" />
+
+
+    <!-- Email -->
+    <EditText
+            android:id="@+id/rgEmailEtext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_shape"
+            android:ems="25"
+            android:fontFamily="monospace"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textColor="@color/greenTextColor"
+            android:textColorHint="@color/hintColor"
+            app:layout_constraintEnd_toEndOf="@+id/rgchooseNameEText"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/rgchooseNameEText"
+            app:layout_constraintTop_toBottomOf="@+id/rgchooseNameEText" />
+
+    <ImageView
+            android:id="@+id/registerLogo"
+            android:layout_width="213dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="64dp"
+            android:contentDescription="@string/logo"
+            app:layout_constraintBottom_toTopOf="@+id/rgchooseNameEText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/logo_3" />
+
+    <Button
+            android:id="@+id/rgSingup"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/buttonCreateAccount"
+            android:fontFamily="monospace"
+            android:text="@string/rgSıngup"
+            android:textColor="@color/loginBackground"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rgRepeatPasswordEtext"
+            app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+            android:id="@+id/playerStartText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/roboto_mono_medium"
+            android:padding="2dp"
+            android:text="@string/player1start"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/rgchooseNameEText"
+            app:layout_constraintEnd_toEndOf="@+id/rgchooseNameEText"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/rgchooseNameEText"
+            app:layout_constraintTop_toBottomOf="@+id/registerLogo"
+            app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+            android:id="@+id/rgbackToLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:fontFamily="monospace"
+            android:text="Back To Login Form"
+            android:textAlignment="center"
+            android:textColor="@color/greenTextColor"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/rgSingup"
+            app:layout_constraintStart_toStartOf="@+id/rgSingup"
+            app:layout_constraintTop_toBottomOf="@+id/rgSingup"
+            app:layout_constraintVertical_bias="0.082" />
+
+    <ProgressBar
+            android:id="@+id/rgprogressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

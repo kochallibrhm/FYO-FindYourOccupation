@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "112835699510",
+    "firebase_url": "https://find-your-occupation.firebaseio.com",
+    "project_id": "find-your-occupation",
+    "storage_bucket": "find-your-occupation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112835699510:android:ef077d356d3af340df4997",
+        "android_client_info": {
+          "package_name": "com.example.fyo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112835699510-quoakpmc6dm2bkaragsg85i8mg5vrf64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRQ6d1BdKUyINSAerDKXrQxSkQJZneXGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112835699510-quoakpmc6dm2bkaragsg85i8mg5vrf64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

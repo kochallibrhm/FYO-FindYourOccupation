@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardBackgroundColor="@color/loginBackground"
+        app:cardCornerRadius="20dp"
+        android:clickable="true"
+        android:layout_margin="8dp"
+        android:focusable="true">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/white_stroke_drawable"
+            android:padding="4dp"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/occupationSymbolImg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_dialog_close_dark" />
+
+        <TextView
+                android:id="@+id/occupationNameTv"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/occupationSymbolImg"
+                android:fontFamily="monospace"
+                android:text="Computer Science"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2BD7FF</color>
+    <color name="colorPrimaryDark">#1F9EC2</color>
+    <color name="colorPrimaryLight">#00F6F2</color>
+    <color name="colorAccent">#1F9EC2</color>
+    <color name="BackGroundGray">#1E2527</color>
+    <color name="colorGreen">#3DD882</color>
+    <color name="hintColor">#565B5F</color>
+    <color name="lightGrayColor">#C5C5C5</color>
+    <color name="loginBackground">#151317</color>
+    <color name="greenText">#276F52</color>
+    <color name="whiteText">#C9CACE</color>
+    <color name="grayText">#A1A3AA</color>
+    <color name="buttonCreateAccount">#2ACDFF</color>
+    <color name="logoGreen">#24E58C</color>
+    <color name="strokeGreen">#03FBDA</color>
+    <color name="greenTextColor">#04B143</color>
+    <color name="fullDark">#000000</color>
+    <color name="Red">#FF0000</color>
+    <color name="RedLight">#ce3860</color>
+    <color name="lightRed">#CF7F7F</color>
+    <color name="orangeYellow">#ECB903</color>
+    <color name="DarkBlue">#01003C</color>
+    <color name="Transparent">#00FFFFFF</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mobile_navigation"
+        app:startDestination="@+id/nav_home">
+
+    <fragment
+            android:id="@+id/nav_home"
+            android:name="com.example.fyo.ui.home.HomeFragment"
+            android:label="@string/menu_home"
+            tools:layout="@layout/fragment_home" />
+
+    <fragment
+            android:id="@+id/nav_my_profile"
+            android:name="com.example.fyo.ui.myProfile.MyProfileFragment"
+            android:label="@string/menu_myProfile"
+            tools:layout="@layout/fragment_myprofile" />
+
+    <fragment
+            android:id="@+id/nav_mygoals"
+            android:name="com.example.fyo.ui.myGoals.MyGoalsFragment"
+            android:label="@string/menu_myGoals"
+            tools:layout="@layout/fragment_mygoals" />
+
+    <fragment
+            android:id="@+id/nav_settings"
+            android:name="com.example.fyo.ui.settings.SettingsFragment"
+            android:label="@string/menu_settings"
+            tools:layout="@layout/fragment_settings" />
+
+    <fragment
+            android:id="@+id/nav_how_to_play"
+            android:name="com.example.fyo.ui.howToPlay.HowToPlayFragment"
+            android:label="@string/menu_howToPlay"
+            tools:layout="@layout/fragment_how_to_play" />
+
+</navigation>

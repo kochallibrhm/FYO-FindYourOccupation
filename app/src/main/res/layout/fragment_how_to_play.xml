@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/BackGroundGray"
+        android:layout_height="wrap_content">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/howToPlayConstraintLayout"
+        android:layout_height="wrap_content"
+        android:background="@color/BackGroundGray">
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/howToPlayIconsCardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+
+            app:cardBackgroundColor="@color/loginBackground"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@drawable/green_stroke">
+
+            <ImageView
+                    android:id="@+id/imageViewFav"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="TODO"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageViewFavUnchecked"
+                    app:layout_constraintStart_toEndOf="@+id/unCompTv"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewFavUnchecked"
+                    app:srcCompat="@drawable/checkbox" />
+
+            <ImageView
+                    android:id="@+id/csIcon"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:contentDescription="@string/computerScience"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/IconsTextView"
+                    app:srcCompat="@drawable/computer" />
+
+            <TextView
+                    android:id="@+id/IconsTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="monospace"
+                    android:text="@string/icons"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                    android:id="@+id/archIcon"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/csIcon"
+                    app:srcCompat="@drawable/arch" />
+
+            <ImageView
+                    android:id="@+id/bioIcon"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:contentDescription="@string/bioAndGenetics"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/archIcon"
+                    app:srcCompat="@drawable/virus" />
+
+            <ImageView
+                    android:id="@+id/imageViewFavUnchecked"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:contentDescription="TODO"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bioIcon"
+                    app:srcCompat="@drawable/checkbox_unchecked" />
+
+            <TextView
+                    android:id="@+id/howToPCsTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_mono_medium"
+                    android:text="@string/computerScienceEq"
+                    android:textAllCaps="true"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/csIcon"
+                    app:layout_constraintStart_toEndOf="@+id/csIcon"
+                    app:layout_constraintTop_toTopOf="@+id/csIcon" />
+
+            <TextView
+                    android:id="@+id/howToParchTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_mono_medium"
+                    android:text="@string/archEq"
+                    android:textAllCaps="true"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/archIcon"
+                    app:layout_constraintStart_toEndOf="@+id/archIcon"
+                    app:layout_constraintTop_toTopOf="@+id/archIcon" />
+
+            <TextView
+                    android:id="@+id/howToPbioTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_mono_medium"
+                    android:text="@string/bioAndGeneticsEq"
+                    android:textAllCaps="true"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/bioIcon"
+                    app:layout_constraintStart_toEndOf="@+id/bioIcon"
+                    app:layout_constraintTop_toTopOf="@+id/bioIcon" />
+
+            <TextView
+                    android:id="@+id/unCompTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_mono_medium"
+                    android:text="@string/unCompEq"
+                    android:textAllCaps="true"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageViewFavUnchecked"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewFavUnchecked"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewFavUnchecked" />
+
+            <TextView
+                    android:id="@+id/compTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_mono_medium"
+                    android:text="@string/CompEq"
+                    android:textAllCaps="true"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageViewFav"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewFav"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewFav" />
+
+            <ImageView
+                    android:id="@+id/unFavIconImg"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="32dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageViewFavUnchecked"
+                    app:srcCompat="@drawable/fav_unchecked" />
+
+            <TextView
+                    android:id="@+id/unFavTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_mono_medium"
+                    android:text="@string/unFavEq"
+                    android:textAllCaps="true"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/unFavIconImg"
+                    app:layout_constraintStart_toEndOf="@+id/unFavIconImg"
+                    app:layout_constraintTop_toTopOf="@+id/unFavIconImg" />
+
+            <ImageView
+                    android:id="@+id/favIconImg"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/unFavIconImg"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewFav"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewFav"
+                    app:layout_constraintTop_toTopOf="@+id/unFavIconImg"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/fav" />
+
+            <TextView
+                    android:id="@+id/favTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_mono_medium"
+                    android:text="@string/FavEq"
+                    android:textAllCaps="true"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/favIconImg"
+                    app:layout_constraintStart_toEndOf="@+id/favIconImg"
+                    app:layout_constraintTop_toTopOf="@+id/favIconImg" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+            android:id="@+id/howTpHeader1Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/roboto_mono_medium"
+            android:text="What is FYO?"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/howToPlayIconsCardView" />
+
+    <TextView
+            android:id="@+id/whatisFyoDescTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="96dp"
+            android:fontFamily="@font/roboto_mono_medium"
+            android:text="@string/LoremIpsum"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/howTpHeader1Tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardBackgroundColor="@color/loginBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_stroke_drawable">
+
+        <ImageView
+                android:id="@+id/OccIconImgListItem"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/computer" />
+
+        <TextView
+                android:id="@+id/taskTvListItem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="monospace"
+                android:text="Text View Deneme görevi bir iki asdfasdf a  asdfasdf asdfasfasdfasdfasdfasdfasdfasdf asdfasdf"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/toggleButtonCompleted"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/OccIconImgListItem"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+                android:id="@+id/toggleButtonCompleted"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/checkbox_selector"
+                android:backgroundTint="@color/RedLight"
+                android:text=""
+                android:textOff=""
+                android:textOn=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/taskTvListItem" />
+
+        <ToggleButton
+                android:id="@+id/toggleButtonFavorite"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginStart="280dp"
+                android:layout_marginEnd="16dp"
+                android:text=""
+                android:background="@drawable/favorite_selector"
+                android:backgroundTint="@color/orangeYellow"
+                app:layout_constraintBottom_toBottomOf="@+id/toggleButtonCompleted"
+                app:layout_constraintEnd_toStartOf="@+id/toggleButtonCompleted"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/toggleButtonCompleted"
+                app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
