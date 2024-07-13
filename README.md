@@ -1,6 +1,5 @@
 # FYO-FindYourOccupation
-A mobile real-life RPG application that I developed for my final project in University.
-I used Firebase for database and Firebase Authentication for authentication.
+A mobile real-life RPG Android application that I used Firebase for database and Firebase Authentication for authentication.
 
 ## Screencaps From Within the App
 
